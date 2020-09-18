@@ -1,0 +1,15 @@
+{
+  "name": "jungle",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "pg-promise": "^10.6.1",
+    "pgp": "^0.1.0"
+  }
+}

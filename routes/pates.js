@@ -1,5 +1,5 @@
-const express = require(`express`)
-const router = express.Router()
+let express = require(`express`)
+let router = express.Router()
 const { Client } = require(`pg`)
 
 const client = new Client({
@@ -13,10 +13,11 @@ client.connect();
 
 
 router.get(`/`, (request, response) => {
-    client.query(`select * from jungle.beverages`)
+    client.query(`select * from jungle.foods where type = 'Pate'`)
         .then((data) => {
             response.json(data.rows)
         })
 })
 
 module.exports = router
+

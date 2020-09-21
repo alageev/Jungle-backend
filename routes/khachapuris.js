@@ -13,10 +13,11 @@ client.connect();
 
 
 router.get(`/`, (request, response) => {
-    client.query(`select * from jungle.beverages`)
+    client.query(`select * from jungle.foods where type = 'Khachapuri'`)
         .then((data) => {
             response.json(data.rows)
         })
 })
 
 module.exports = router
+

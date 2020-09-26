@@ -8,8 +8,6 @@
   "dependencies": {
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "morgan": "~1.9.1",
-    "pg-promise": "^10.6.1",
-    "pgp": "^0.1.0"
+    "pg": "^8.3.3"
   }
 }

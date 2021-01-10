@@ -12,7 +12,7 @@ const client = new Client({
 client.connect();
 
 router.get(`/`, (request, response) => {
-    client.query(`select * from jungle.present_foods`)
+    client.query(`select * from jungle.events`)
         .then((data) => {
             response.json(data.rows)
         })

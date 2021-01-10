@@ -11,7 +11,6 @@ const client = new Client({
 
 client.connect();
 
-
 router.get(`/`, (request, response) => {
     client.query(`select * from jungle.present_beverages`)
         .then((data) => {

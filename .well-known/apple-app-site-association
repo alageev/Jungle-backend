@@ -1,5 +1,13 @@
 {
+
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "94U9UR9TXD.com.alageev.Jungle",
+            "paths": ["*"]
+        }]
+    }
     "appclips": {
-        “apps”: ["com.alageev.Jungle.Clip"]
+        “apps”: ["94U9UR9TXD.com.alageev.Jungle.Clip"]
     }
 }
